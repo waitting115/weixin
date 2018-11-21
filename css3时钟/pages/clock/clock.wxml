@@ -1,0 +1,11 @@
+<view class = "clock">
+  <view class='centerNode'></view>
+  <view class='hor' style='transform:rotate({{HorRotate}}deg)'></view>
+  <view class='min' style='transform:rotate({{MinRotate}}deg)'></view>
+  <view class='sec' style='transform:rotate({{SecRotate}}deg)'></view>
+  <block wx:for='123456789012'>
+    <view class='num' style='transform:rotate({{index * 30 +30}}deg)'>
+      <view style='transform:rotate({{-(index + 1)* 30}}deg)'>{{index + 1}}</view>
+   </view>
+  </block>
+</view>

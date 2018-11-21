@@ -1,0 +1,3 @@
+<view>
+  <image src='image/cat.jpg' bindtap='go'></image>
+</view>

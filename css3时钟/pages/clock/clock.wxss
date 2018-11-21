@@ -1,0 +1,70 @@
+.clock{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -100px 0 0 -100px;
+  background: #ccc;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+.centerNode{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: black;
+  left: 50%;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-radius: 50%;
+  z-index: 10;
+}
+.hor{
+  position: absolute;
+  width: 8px;
+  height: 60px;
+  background: black;
+  left: 50%;
+  margin-left: -4px;
+  top: 40px;
+  transform-origin: center bottom;
+  z-index: 9;
+}
+.min{
+  position: absolute;
+  width: 5px;
+  height: 70px;
+  background: green;
+  left: 50%;
+  margin-left: -2.5px;
+  top: 30px;
+  transform-origin: center bottom;
+  z-index: 8;
+}
+.sec{
+  position: absolute;
+  width: 2px;
+  height: 80px;
+  background: red;
+  left: 50%;
+  margin-left: -1px;
+  top: 20px;
+  z-index: 7;
+  transform-origin: center bottom;  
+}
+.num{
+  position: absolute;
+  /* background: red; */
+  width: 20px;
+  height: 100px;
+  color: white;
+  left: 50%;
+  margin-left: -10px;
+  transform: rotate(30deg);
+  transform-origin: center bottom;
+}
+.num view{
+  float:left;
+  transform:rotate(-30deg);
+}
