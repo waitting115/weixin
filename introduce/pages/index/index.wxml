@@ -1,0 +1,1 @@
+<view class="myView" style='background:rgb({{r}}, {{g}}, {{b}})'></view>

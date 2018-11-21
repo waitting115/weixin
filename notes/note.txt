@@ -1,0 +1,86 @@
+js
+微信开发者工具 - 脚手架
+自动配置 
+
+App - Pages
+	- Pages
+
+App 有点类似于vuex
+状态管理模式
+
+app全局 pages 
+都能访问到你的这个全局
+
+天然有这么个vuex 自动带了一个
+
+和vue 的区别：
+	函数不能直接渲染出return数据，要注意
+
+API接口非常的丰富  你想得到的都有  扫码、指南针、加速器等等
+
+小程序开发就是混合式开发
+本质上就是套了个壳
+壳其实就是微信
+
+如果行想获取app
+	let app = getApp();
+
+小程序本身也支持模块化开发
+common.js
+require('')
+
+
+输出：
+export const a = 12;
+
+export default{
+	
+}
+只允许一个js里面有一个
+
+也支持es6的模块语法
+
+导入：
+  
+import {a} from /.../
+import {a,b,c,d} from /.../
+import json,{a, b, c} from /.../
+json.a, json.b,json.c,json.d
+
+
+导出：
+
+export const a = 12;
+export {a,b,c,d}
+
+export default {a,b,c,d}
+
+原名 as  别名
+
+随机数：
+	Math.random; 0 - 1(理论上有1，但是实际上不会出现1)
+
+原理：
+	Math.random() * (max - min) + min;
+parseInt()包装上。
+
+如果想让它出现最大的那个数字：
+	parseInt(Math.random() * (++max - min) + min)
+
+
+
+路由：
+	1.router
+
+
+
+
+
+
+
+
+	
+
+
+
+
